@@ -9,7 +9,7 @@ public class A_01_TakingInputFromUser {
 		//Scanner is a class which is use to take input from user.
 		Scanner sc = new Scanner(System.in);//pre-defined //built in class in java 
 		System.out.println("Enter num");
-		int num = sc.nextInt();
+		int num = sc.nextInt();//to getting integer value 
 		System.out.println("num is :- "+num);
 		
 		

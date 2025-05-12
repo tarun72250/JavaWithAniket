@@ -17,7 +17,9 @@ public class Date {
 			
 			//default cons 
 			public Date() {
-				
+//				dd=00;
+//				mm=00;
+//				yy=00;
 			}
 			
 			//parametrized cons 

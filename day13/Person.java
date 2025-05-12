@@ -5,14 +5,16 @@ import day10.A_02_Date;
 public class Person {
 	
 	//char ch[] = {'a','n','i','k','e','t'};
-	String name ;
+	String name ;//refrence insatnce variable
     //int dd , mm , yy;
 	Date bdate;
 	
 	//whenever the data member are refrence variable it starts with value as null.
 	//default cons
+	//2. prevention
 	public Person() {
-		//name = bdate = null;
+		//name  = null;
+		bdate = new Date();
 	}
 	
 	//parametrized cons
@@ -22,9 +24,16 @@ public class Person {
 	}
 	
 	//instance member method
+	//1. prevention
 	public void display() {
 		System.out.println("Name : "+name);
-		bdate.showDate();
+//		if(bdate == null) {
+//			System.out.println("Birthday is null");
+//		}
+//		else
+//		{
+			bdate.showDate();
+//		}
 	}
 	
 }

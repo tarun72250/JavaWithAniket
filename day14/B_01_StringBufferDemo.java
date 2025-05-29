@@ -14,6 +14,8 @@ public class B_01_StringBufferDemo {
 		
 		//Declaration and initializationn
 		StringBuffer sb = new StringBuffer();
+		sb.append("Jaya");
+		System.out.println(sb);
 		StringBuffer sb1 = new StringBuffer("Aniket");//22
 		System.out.println(sb1.capacity());//22
 		
@@ -89,5 +91,7 @@ public class B_01_StringBufferDemo {
 	        System.out.println("cmp1.equals(cmp2): " + cmp1.equals(cmp2)); // false, reference comparison
 	        System.out.println("cmp1.toString().equals(cmp2.toString()): " + cmp1.toString().equals(cmp2.toString())); // true
 	   
+	        
+	        
 	}
 }

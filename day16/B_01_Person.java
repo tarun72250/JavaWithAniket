@@ -8,9 +8,10 @@ public class B_01_Person {
 	
 	//default cons 
 	public B_01_Person() {
-		
+//		this.name="Mathur";
+//		this.age=25;
 	}
-	
+		
 	//Para cons
 	public B_01_Person(String name , int age) {
 		this.name = name;

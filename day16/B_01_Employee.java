@@ -9,6 +9,9 @@ public class B_01_Employee extends B_01_Person {
 	//default cons
 	public B_01_Employee() {
 		super();//it is defaulty available
+		//super() : this is the first statement
+//		this.empid=10001;
+//		this.salary=40000;
 	}
 	
 	//para cons
@@ -29,10 +32,5 @@ public class B_01_Employee extends B_01_Person {
 	@Override
 	public String toString() {
 		return super.toString()+" Empid : "+ empid+ " Salary : "+salary;
-	}
-
-	
-	
-	
-	
+	}	
 }

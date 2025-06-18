@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class B_02_RegCustomerDemo {
 
 	public static void main(String[] args) {
+	
+		
 		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter type of address (1-RCus , 2-Cus)");

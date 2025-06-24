@@ -1,7 +1,10 @@
 package day18;
 
+
+//1. 
 public class A_01_Date {
 
+	//instane dm
 	private int dd , mm , yy;
 	
 	//default cons 
@@ -18,6 +21,7 @@ public class A_01_Date {
 	}
 	
 	
+	//toString()
 	@Override
 	public String toString() {
 		return "A_01_Date [dd=" + dd + ", mm=" + mm + ", yy=" + yy + "]";

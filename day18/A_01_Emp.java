@@ -1,5 +1,6 @@
 package day18;
 
+//3.
 public class A_01_Emp extends A_01_Person {
 
 	//extra state
@@ -18,6 +19,7 @@ public class A_01_Emp extends A_01_Person {
 		this.salary=sallary;
 	}
 
+	//toString()
 	@Override
 	public String toString() {
 		return "A_01_Emp [empid=" + empid + ", salary=" + salary + ", Person Details=" + super.toString() + "]";

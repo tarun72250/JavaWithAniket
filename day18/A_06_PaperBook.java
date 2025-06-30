@@ -15,7 +15,7 @@ public class A_06_PaperBook extends A_06_Book{
 	@Override
 	public double calculateCost() {
 		double originalCost = super.calculateCost();
-		if(originalCost <= 50) {
+		if(originalCost <= 500) {
 			return originalCost * 0.02;
 		}
 		else if(originalCost > 500 &&  originalCost <= 1000) {

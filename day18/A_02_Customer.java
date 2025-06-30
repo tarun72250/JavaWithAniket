@@ -6,11 +6,11 @@ public class A_02_Customer {
 	private String email;
 	
 	//refrence dm 
-	A_02_Address address;//has-a relationship 
+	A_02_Address address;//has-a relationship with address class
 	
 	//default cons
 	public A_02_Customer() {
-		
+		address=new A_02_Address();
 	}
 	
 	//para cons

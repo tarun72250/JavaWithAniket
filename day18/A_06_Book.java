@@ -19,31 +19,24 @@ public class A_06_Book {
  		this.cost=cost;
  	}
  	
+ 	//getter fn : If i want to get our private dm of this class into some another class , so i used Getter() methods.
+ 	//instance member method
  	public double calculateCost() {
  		return this.cost;
  	}
 
-	/**
-	 * @return the title
-	 */
+	
 	public String getTitle() {
 		return title;
 	}
 
-	/**
-	 * @return the author
-	 */
+
 	public String getAuthor() {
 		return author;
 	}
 
-	/**
-	 * @return the cost
-	 */
 	public double getCost() {
 		return cost;
 	}
- 	
- 	//getter 
  	
 }

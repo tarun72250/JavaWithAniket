@@ -14,7 +14,7 @@ public class A_01_SalesManager extends A_01_Emp {
 	public A_01_SalesManager(int dd , int mm , int yy , String name , int age , int empid , double sallary , int target , int incentive) {
 		super(dd,mm,yy,name,age,empid,sallary);
 		this.target=target;
-		this.incentive=this.incentive;
+		this.incentive=incentive;
 	}
 	
 	//display

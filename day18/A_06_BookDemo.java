@@ -5,23 +5,27 @@ import java.util.Scanner;
 public class A_06_BookDemo {
 	public static void main(String[] args) {
 		
-		Scanner scanner = new Scanner(System.in);
+		//take input from user
+		Scanner sc = new Scanner(System.in);
+		
 		System.out.println("How many books info u maintained");
-		int n = scanner.nextInt();
-		scanner.nextLine(); // Consume the newline character
+		int n = sc.nextInt();//5
+		sc.nextLine(); // Consume the newline character
     		   
-		A_06_Book[] books = new A_06_Book[n];//2
+		A_06_Book[] books;
+		books = new A_06_Book[n];//5
+		
         for (int i = 0; i < books.length; i++) 
         {    
             System.out.print("Enter title of the book: ");
-            String title = scanner.nextLine();
+            String title = sc.nextLine();
             System.out.print("Enter author of the book: ");
-            String author = scanner.nextLine();
+            String author = sc.nextLine();
             System.out.print("Enter cost of the book: ");
-            double cost = Double.parseDouble(scanner.nextLine());
+            double cost = Double.parseDouble(sc.nextLine());
 
-        	System.out.print("Enter type of book (EBook/PaperBook): ");
-            String bookType = scanner.nextLine().toLowerCase();
+        	System.out.print(i+" Enter type of book (EBook/PaperBook): ");
+            String bookType = sc.nextLine().toLowerCase();
             
             if (bookType.equals("ebook")) {
                 books[i] = new A_06_Ebook(title, author, cost);
@@ -37,6 +41,10 @@ public class A_06_BookDemo {
         }
 
         //Advanced for loop
+//        for(Type t :arrObj) {
+//        	
+//        }
+        
         for (A_06_Book b : books) {
             System.out.println("Title: " + b.getTitle() + ", Author: " + b.getAuthor() + ", Final Cost: " + b.calculateCost());
         }

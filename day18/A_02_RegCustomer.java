@@ -7,7 +7,7 @@ public class A_02_RegCustomer extends A_02_Customer {
 	
 	//default cons
 	public A_02_RegCustomer() {
-		
+		super();
 	}
 	
 	//para cons
@@ -21,6 +21,7 @@ public class A_02_RegCustomer extends A_02_Customer {
 		return "A_02_RegCustomer [regNo=" + regNo + ", address=" + address.toString() + "]";
 	}
 	
+	//instance member method
 	public void giveDiscount(double shoppingPrice) {
 		System.out.println("Customer is Regular customer gives 5% dicount");
 		System.out.println("Registeation No : "+regNo);

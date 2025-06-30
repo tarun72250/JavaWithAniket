@@ -14,7 +14,7 @@ public class A_02_CustomerTypeDemo {
 		r.giveDiscount(4000);
 		
 		
-		//complete console based system
+		//Todo : Aniket - complete console based system
 		
 	}
 }

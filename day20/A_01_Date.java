@@ -1,10 +1,11 @@
-package day19;
+package day20;
 
-//this package is used for protected assignments
+//this package is used for abstract assignments
 
 
 //polympoorphism
 //Has a relatinship 
+//Person Has-a Date
 //1.
 public class A_01_Date {
 
@@ -29,6 +30,12 @@ public class A_01_Date {
 	
 	public void showdate() {
 		System.out.println(dd+"-"+mm+"-"+yy);
+	}
+	
+	
+	@Override
+	public String toString() {
+		return "A_01_Date [dd=" + dd + ", mm=" + mm + ", yy=" + yy + "]";
 	}
 	
 	

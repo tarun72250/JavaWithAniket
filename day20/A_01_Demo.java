@@ -1,4 +1,4 @@
-package day19;
+package day20;
 
 public class A_01_Demo {
 
@@ -19,9 +19,6 @@ public class A_01_Demo {
 		//super class reference and sub class object = generic refrence
 //		A_01_Person p = new A_01_Emp();
 //		System.out.println(p);
-		
-		
-		
 		
 	}
 }

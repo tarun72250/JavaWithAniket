@@ -22,7 +22,13 @@ public class A_03_EmpTypesDemo {
 					allEmp[i].display();
 					double salary = allEmp[i].calSalary();
 					System.out.println("Calculated sallary: "+salary);
-			
+					// Check if the employee is a implementing ITraveller interface
+		            if (allEmp[i] instanceof A_03_ITraveller) // To check if the current object supports calculateTA().
+		            {
+		                A_03_ITraveller traveller = (A_03_ITraveller) allEmp[i];
+		                double ta = traveller.calculateTA();
+		                System.out.println("Travel Allowance (TA): " + ta);
+		            }
 					System.out.println("---------------------------------");
 		}				
 	}

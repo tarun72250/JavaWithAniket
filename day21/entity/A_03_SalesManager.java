@@ -26,6 +26,7 @@ public class A_03_SalesManager extends A_03_Emp implements A_03_ITraveller {
 		super.display();
 		System.out.println("Target :"+target);
 		System.out.println("Incentive :"+incentive);
+		System.out.println("Days per travelled :"+daysTravelled);
 	}
 
 	//calSalary()
